@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package chat;
+
+option go_package = "github.com/BlazeCode1/ProtoM/proto/chat;gen";
+
+// Define the chat message structure
+message ChatMessage {
+  string sender_id = 1;
+  string receiver_id = 2;
+  string content = 3;
+  int64 timestamp = 4;
+}
+
+// Request to send a message
+message SendMessageRequest {
+  ChatMessage message = 1;
+}
+
+// Response for sending a message
+message SendMessageResponse {
+  bool success = 1;
+  string message_id = 2;
+}
+
+// Request for streaming messages
+message StreamMessagesRequest {
+  string user_id = 1;
+}
+
+// gRPC Service Definition
+service ChatService {
+  // Sends a message
+  rpc SendMessage(SendMessageRequest) returns (SendMessageResponse);
+
+  // Streams live messages for a user
+  rpc StreamMessages(StreamMessagesRequest) returns (stream ChatMessage);
+}
