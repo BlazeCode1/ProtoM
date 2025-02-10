@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/BlazeCode1/ProtoM/ProtoM-GRPC/app/model"
+	"github.com/BlazeCode1/ProtoM/tree/main/ProtoM-GRPC/app/model"
 )
 
 // MessageService handles message operations
