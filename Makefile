@@ -11,7 +11,7 @@ clean:
 	rm -rf $(PROTO_GEN)
 
 	
-tidy:
+t:
 	go mod tidy
 
 

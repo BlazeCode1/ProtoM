@@ -1,4 +1,4 @@
-module github.com/BlazeCode1/ProtoM/ProtoM-GRPC
+module github.com/BlazeCode1/ProtoM
 
 go 1.23.4
 
