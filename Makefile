@@ -13,4 +13,3 @@ t:
 	go mod tidy
 server:
 	go run main.go
-	go run /client/client.go
