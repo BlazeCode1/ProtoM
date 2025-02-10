@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package chat;
 
-option go_package = "github.com/BlazeCode1/ProtoM/proto";
+option go_package = "github.com/BlazeCode1/ProtoM-GRPC/proto";
 
 // Define the chat message structure
 message ChatMessage {
