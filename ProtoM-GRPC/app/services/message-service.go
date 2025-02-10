@@ -1,12 +1,11 @@
-package service
+package services
 
 import (
 	"fmt"
 	"sync"
 	"time"
 
-	"github.com/BlazeCode1/ProtoM-GRPC/app/model"
-	pb "github.com/BlazeCode1/ProtoM-GRPC/proto/gen/chat"
+	"github.com/BlazeCode1/ProtoM/ProtoM-GRPC/app/model"
 )
 
 // MessageService handles message operations
