@@ -5,7 +5,7 @@ import (
 
 	"github.com/BlazeCode1/ProtoM/app/model"
 	"github.com/BlazeCode1/ProtoM/app/service"
-	pb "github.com/BlazeCode1/ProtoM/proto/chat"
+	pb "github.com/BlazeCode1/ProtoM/proto/gen/chat"
 )
 
 type ChatController struct {
