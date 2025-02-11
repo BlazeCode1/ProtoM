@@ -6,7 +6,7 @@ import (
 	"net"
 	"github.com/BlazeCode1/ProtoM/app/controller"
 	"github.com/BlazeCode1/ProtoM/app/service"
-	pb "github.com/BlazeCode1/ProtoM/proto/gen/chat"
+	pb "github.com/BlazeCode1/ProtoM/proto/gen"
 	"google.golang.org/grpc"
 )
 
